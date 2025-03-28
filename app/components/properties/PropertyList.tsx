@@ -1,6 +1,6 @@
 import PropertyListItem from "./PropertyListItem"
 
-const properties = [
+export const properties = [
     {
         id: "1",
         name: "Property 1",

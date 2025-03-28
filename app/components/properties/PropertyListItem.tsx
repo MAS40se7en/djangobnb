@@ -16,7 +16,7 @@ const PropertyListItem = ({ item }: { item: ItemProps}) => {
                 alt="Property"
                 src={item.image}
                 sizes="(max-width: 768px) 768px, (max-width: 1200px): 768px, 768px" 
-                className="hover:scale-110 object-cover transition h-full w-full"
+                className="hover:scale-110 object-cover transition h-full w-full -z-10"
             />
         </div>
 

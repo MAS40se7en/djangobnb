@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const page = ({}) => {
   return (
-    <main className="max-w-[1500px] mx-auto px-6">
-        <div className="w-full h-[64vh] overflow-hidden rounded-xl relative">
+    <main>
+        <div className="w-full h-[64vh] overflow-hidden rounded-xl relative -z-10">
             <Image 
                 src="/beach_1.jpg"
                 fill
