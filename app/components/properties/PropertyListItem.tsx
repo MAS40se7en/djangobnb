@@ -8,6 +8,7 @@ export type PropertyProps = {
 }
 
 const PropertyListItem = ({ property }: { property: PropertyProps}) => {
+
   return (
     <div className="cursor-pointer">
         <div className="overflow-hidden aspect-square rounded-xl relative">
